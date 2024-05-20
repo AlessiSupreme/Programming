@@ -1,0 +1,25 @@
+Alan Smykowski
+
+May 18 2024
+
+Description:
+Application to pre-sell a limited number of cinema tickets. Each buyer can purchase up to 4 tickets, and a maximum of 20 tickets can be sold in total. The program prompts the user for the desired number of tickets, displays the number of remaining tickets after each purchase, and repeats the process until all tickets have been sold. Finally, it displays the total number of buyers.
+
+Variables:
+totalTickets
+ticketsSold
+buyerCount
+ticketsPurchased
+remainingTickets
+
+Functions:
+None.
+
+Logical Steps:
+1. Initialize totalTickets to 20, ticketsSold to 0, and buyerCount to 0.
+2. While ticketsSoldd is less than totalTickets:
+- Prompt the user for the desired number of tickets.
+- Check if ticketsPurchased is within the limit and if the total tickets sold won't exceed 20.
+- If the conditions are met, update ticketsSold and buyerCount, and calculate remainingTickets.
+- Display the number of remaining tickets after the purchase.
+3. Display the total number of buyers.
