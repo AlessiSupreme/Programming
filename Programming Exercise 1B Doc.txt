@@ -1,0 +1,26 @@
+Alan Smykowski
+
+May 18 2024
+
+Description:
+This program simulates a Magic 8 Ball.
+
+Variables:
+Lists
+
+Functions:
+create_responses_file()
+read_responses_from_file()
+get_random_response(responses)
+main()
+
+Logical Steps:
+1. Create a file called '8ball_responses.txt'.
+2. Read the responses from '8ball_responses.txt' into a list.
+3. Prompt the user to ask a yes or no type question.
+4. If the user input is empty, exit the program.
+5. Otherwise, randomly select a response from the list of responses.
+6. Display the selected response.
+7. Repeat steps 3-6 until the user decides to quit by pressing Enter.
+
+https://github.com/AlessiSupreme/Programming
