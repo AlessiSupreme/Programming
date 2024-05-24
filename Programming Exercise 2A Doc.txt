@@ -1,0 +1,60 @@
+Alan Smykowski
+
+
+May 23 2024
+
+
+Description:
+This program checks the probability of an email message being spam by looking at common spam keywords. The user gives a string as their message, and it examines this string to see if it contains any of the 30 set up spam keywords.
+
+
+Variables:
+SPAMKEYWORDS 
+spamScore
+emailMessage
+likelihood
+percentage
+matchedKeywords
+
+
+Functions:
+getScore(message)
+getLikelihood(score)
+getPercentage(score)
+reDo(answer)
+main()
+
+
+Logical Steps:
+1. Define the list of spam keywords 
+
+2. Create a function to get score
+
+- For each keyword in SPAMKEYWORDS, check if it is present in the message, 
+- if a keyword is found, increment spamScore by 1 and add the keyword to matchedKeywords
+
+3. Create a function to get spam likelihood
+
+- Based on the value of spamScore, determine the likelihood of the message being spam
+
+3. Create a function to get likelihood percentage
+
+- Based on the value of spamScore, determine the percentage of likelihood of the message being spam
+
+3. Create a function to check for code redo
+
+- Based on user input, determine whether to start code over or exit
+
+4. Create the main function:
+
+- Prompt user for an email message and store it,
+- call getScore to get spamScore and matchedKeywords,
+- call getLikelihood to get the likelihood,
+- call getPercentage to get the percentage,
+- print all,
+- prompt user for code redo
+
+5. Execute the main function
+
+
+https://github.com/AlessiSupreme/Programming
