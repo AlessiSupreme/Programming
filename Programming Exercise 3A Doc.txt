@@ -1,0 +1,104 @@
+Alan Smykowski
+
+
+May 30 2024
+
+
+Description:
+This program asks the user for expenses and their types and outputs the sum, max and min
+
+
+Variables and Arrays (all local) per function:
+addFunc
+	fullList
+	inputType
+	expenseType
+	sumItem
+	minItem
+	minIndex
+	maxItem
+	maxIndex
+calculateTotal
+	typeStr
+	inStr
+	expensesLength
+	charIndex
+	expenseItem
+	lastChar
+commaType
+	expensesAmount
+	itemIndex
+	expensesListed
+	lastChar
+	inStr
+oneByOneType
+	expensesAmount
+	itemIndex
+	expensesListed
+	typesListed
+	expenseLength
+	charIndex
+	expenseItem
+reDo
+	answer
+main
+	listType
+	expenseList
+	typeList
+	inputType
+
+
+Functions:
+addFunc(a, b)
+calculateTotal(fullList, inputType, expenseType)
+commaType()
+oneByOneType()
+reDo(answer)
+main()
+
+
+Logical Steps:
+1. Define addFunc(a, b) function
+
+- Add two numbers and return the result
+
+2. Define calculateTotal(fullList, inputType, expenseType) function
+
+- Calculate the sum of the expenses using reduce and addFunc
+- Find the smallest expense and its index
+- Find the biggest expense and its index
+- Output the types
+- Output the sum, highest, and lowest expenses
+- Output the types of the highest and lowest expenses if inputType is 2
+
+3. Define commaType() function
+
+- Prompt the user for the type
+- Prompt the user to input their list of expenses
+- Convert the input string to a list of expenses
+- Return the list of expenses and the type
+
+4. Define oneByOneType() function
+
+- Prompt the user for the number of expenses
+- Set up variables for tracking expenses and types
+- Allow the user to input each expense and its type one by one
+- Convert the input string to a float
+- Return the list of expenses and the list of types
+
+5. Define reDo(answer) function
+
+- If the user answers "y", restart the main process
+- If the user answers "n", exit the program
+
+6. Define main() function
+
+- Prompt the user to choose an input method
+- Call the appropriate function for list input
+- Call calculateTotal to calculate and display the results
+- Call reDo to ask the user if they want to redo the process
+
+7. Execute Main
+
+
+https://github.com/AlessiSupreme/Programming
