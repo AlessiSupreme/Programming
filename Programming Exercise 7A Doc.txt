@@ -1,0 +1,42 @@
+Alan Smykowski
+
+
+June 22 2024
+
+
+Description:
+This program processes the provided text by identifying and extracting sentences, counting them, and printing each sentence along with the total count at the end.
+
+
+Variables:
+pattern
+sentences
+text
+sentenceCount
+sentence
+
+Functions:
+findSentences(text)
+main()
+
+Logical Steps:
+1. Import the re module:
+
+2. Define find_sentences function:
+
+- Takes a text string as input.
+- Uses a regular expression pattern to match sentences.
+- Returns a list of sentences found in the text.
+
+3. Define main function:
+
+- Calls findSentences to get the list of sentences.
+- Counts the number of sentences.
+- Prints each sentence and then the number of sentences.
+
+4. Main call:
+
+- Executes the main function.
+
+
+https://github.com/AlessiSupreme/Programming

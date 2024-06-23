@@ -1,0 +1,80 @@
+Alan Smykowski
+
+
+June 22 2024
+
+
+Description:
+This program takes user input, determines if it is a phone number, social security number, or zip code using regular expressions, and then validates the input accordingly.
+
+
+Variables:
+pattern
+userInput
+Phone
+SSN
+Zip
+inputType
+
+Functions:
+validatePhone(phone)
+validateSsn(ssn)
+validateZip(zipCode)
+determineInputType(userInput)
+reDo(answer)
+main()
+
+
+Logical Steps:
+1. Import re module
+
+2. Define validatePhone function:
+
+- Takes a phone number as input.
+- Checks if it matches the pattern for valid phone numbers.
+- Returns True if valid, otherwise False.
+
+3. Define validateSsn function:
+
+- Takes a social security number as input.
+- Checks if it matches the pattern for valid SSNs.
+- Returns True if valid, otherwise False.
+
+4. Define validateZip function:
+
+- Takes a zip code as input.
+- Checks if it matches the pattern for valid zip codes.
+- Returns True if valid, otherwise False.
+
+5. Define determineInputType function:
+
+- Takes user input.
+- Determines if the input is a phone number, SSN, or zip code using the validation functions.
+- Returns the type of input or "invalid".
+
+6. Define reDo function:
+
+- Takes user's answer.
+- If "y", restarts the main function.
+- If "n", exits the program.
+
+7. Define main function:
+
+- Prompts the user to choose an input method.
+
+- Method 1: Input all three types one by one.
+- For each input, validates using the respective function.
+- Displays whether each input is valid or not and provides formatting tips if invalid.
+
+- Method 2: Input one type and automatically detect and validate it.
+- Determines the type of input using determineInputType().
+- Displays whether the input is valid or not and provides formatting tips if invalid.
+
+- Asks the user whether to call the reDo function.
+
+8. Main call:
+
+- Executes the main function.
+
+
+https://github.com/AlessiSupreme/Programming
