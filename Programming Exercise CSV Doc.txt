@@ -1,0 +1,66 @@
+Alan Smykowski
+
+
+June 25 2024
+
+
+Description:
+This program allows the instructor to input student grades and store them in a CSV file, also displays or clears the contents of the CSV file.
+
+Variables:
+clearNow
+studentCount
+firstName
+lastName
+exam1
+exam2
+exam3
+file
+writer
+reader
+row
+action
+clearType
+answer
+
+Functions:
+writeGradesToFile()
+readGradesFromFile()
+clearGradesFile(clearType)
+main()
+reDo(answer)
+main()
+
+
+Logical Steps:
+1.	Import required modules
+
+2.	Define writeGradesToFile function:
+
+- Prompts user for the number of students.
+- Clears the file if an invalid input is detected.
+- Writes student grades to grades.csv with error handling.
+
+3.	Define readGradesFromFile function: 
+
+- Reads and displays the contents of grades.csv.
+
+4.	Define clearGradesFile function: 
+
+- Clears the contents of grades.csv.
+
+5.	Define reDo function: 
+
+- Re-executes the program based on user's input.
+
+6.	Define main function:
+
+- Checks if grades.csv exists and whether it is empty.
+- Prompts the user to either overwrite the file, display its contents, or clear the file.
+- Executes the selected action.
+- Calls reDo to determine if the user wants to repeat the session.
+
+7.	Execute main function
+
+
+https://github.com/AlessiSupreme/Programming
