@@ -1,0 +1,62 @@
+Alan Smykowski
+
+
+July 4 2024
+
+
+Description:
+This program defines a BankAcct class with methods for managing a bank account and includes a test function to demonstrate the functionality of these methods.
+
+
+Variables:
+name
+accountNumber
+amount
+interestRate
+newRate
+days
+interest
+acct
+balance
+
+
+Functions:
+__init__
+adjustInterestRate
+withdraw
+deposit
+getBalance
+calculateInterest
+__str__
+testBankAcct
+main
+
+
+Logical Steps:
+1. Define the BankAcct class with methods:
+
+- __init__, 
+- adjustInterestRate, 
+- withdraw, 
+- deposit, 
+- getBalance, 
+- calculateInterest,
+- __str__
+
+2. Create a test function testBankAcct to:
+
+- Instantiate a BankAcct object,
+- Display initial account information,
+- Deposit an amount and display the updated info,
+- Withdraw an amount and display the updated info,
+- Get and print the current balance,
+- Adjust the interest rate and display the updated info,
+- Calculate and print the interest for a specified number of days,
+- Display the final account information
+
+3. Define the main function to call the testBankAcct function
+
+4. Call the main function on execution
+
+
+https://github.com/AlessiSupreme/Programming
