@@ -1,0 +1,59 @@
+Alan Smykowski
+
+
+July 14 2024
+
+
+Description:
+This program is a revised and upgraded version of the Money class that can now add, multiply and subtract
+
+
+Variables:
+exch_dict
+default_curr
+units
+m1
+m2
+m3
+m4
+r
+m
+
+
+Functions:
+__new__
+__init__
+__str__
+__repr__
+__add__
+__sub__
+__mul__
+testMoneyClass
+
+
+Logical Steps:
+
+1. Import Decimal Class
+
+2. Define Money Class
+
+3. Set up a dictionary
+
+4. Define a variable for the default currency.
+
+5. Implement the __new__ method to handle Decimal initialization and the __init__ method to set the currency unit
+
+6. Override the __str__ method to format the output and __repr__ for object representation
+
+7. Implement the __add__ method
+
+8. Implement the __sub__ method
+
+9. Implement the __mul__ method
+
+10. Create the test function to validate the addition, subtraction, and multiplication
+
+11. Print the results
+
+
+https://github.com/AlessiSupreme/Programming
