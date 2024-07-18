@@ -1,0 +1,47 @@
+Alan Smykowski
+
+
+July 18 2024
+
+
+Description:
+This program determines the length of the hypotenuse of a right triangle based the nearest angle in degrees and the length of the adjacent side
+
+
+Variables:
+angleDegrees
+adjacentSide
+angleRadians
+hypotenuse
+
+
+Functions:
+calculateHypotenuse
+main
+
+
+Logical Steps:
+
+1. Import math class
+
+2. Define calculateHypotenuse function
+
+3. Take user input
+
+4. Convert the angle from degrees to radians
+
+5. Calculate the hypotenuse
+
+6. Return the calculated hypotenuse
+
+7. Define main function
+
+8. Prompt the user for the nearest angle and the adjacent side length
+
+9. Call calculateHypotenuse to compute the hypotenuse
+
+10. Print the length of the hypotenuse to two decimal places
+
+
+
+https://github.com/AlessiSupreme/Programming

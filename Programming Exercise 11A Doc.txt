@@ -1,0 +1,64 @@
+Alan Smykowski
+
+
+July 18 2024
+
+
+Description:
+This program deals a Poker hand of five cards, prompts the user to select cards to be replaced during a draw phase, and then prints the result of drawing the new cards
+
+
+Variables:
+size
+cardList
+cardsInPlayList
+discardsList
+newCard
+ranks
+suits
+myDeck
+hand
+replaceIndices
+index
+
+
+Functions:
+__init__
+deal
+newHand
+printHand
+main
+
+
+Logical Steps:
+
+1. Define Deck class
+
+2. Initialize the deck, cards in play, and discard lists 
+
+3. Shuffle the deck initially
+
+4. Deal a card from the deck, reshuffle if needed
+
+5. Add the card to the cards in play list
+
+6. Move cards from the cards in play list to the discard list
+
+7. Clear the cards in play list
+
+8. Print the ranks and suits of the cards in a hand
+
+9. Define main function
+
+10. Create a deck of 52 cards
+
+11. Deal an initial hand of 5 cards and print it
+
+12. Prompt the user to select cards to replace
+
+13. Replace the selected cards and print the final hand
+
+14. Start a new hand and clear the cards in play list
+
+
+https://github.com/AlessiSupreme/Programming
