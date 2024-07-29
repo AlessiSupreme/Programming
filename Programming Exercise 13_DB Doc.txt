@@ -1,0 +1,48 @@
+Alan Smykowski
+
+
+July 27 2024
+
+
+Description:
+This program creates a SQLite database to store and simulate population growth data for 10 cities in Florida over 20 years, then allows the user to visualize the population growth of a selected city
+
+
+Variables:
+conn
+cursor
+cities
+initial_population
+growth_rate
+rows
+city
+population
+year
+choice
+selected_city
+years
+populations
+
+
+Functions:
+createDatabaseAndTable
+insertInitialData
+simulatePopulationGrowth
+showPopulationGrowth
+main
+
+
+Logical Steps:
+
+1. Create a SQLite database called population_AS
+
+2. Create a table named population with fields for city, year, and population
+
+3. Insert data for 10 cities in Florida for the year 2023
+
+4. Simulate population growth for the next 20 years at a 2% growth rate
+
+5. Visualize the population growth for a user-selected city using Matplotlib
+
+
+https://github.com/AlessiSupreme/Programming
